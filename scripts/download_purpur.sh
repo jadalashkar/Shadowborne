@@ -1,3 +1,5 @@
 #!/bin/bash
-VERSION="1.20.4"
-curl -o server/purpur.jar https://api.purpurmc.org/v2/purpur/$VERSION/latest/download
+
+# هذا سطر تعليق فقط
+mkdir -p server  # هذا السطر فيه أمر + تعليق، فقط الجزء قبل # ينفذ
+curl -L -o server/purpur.jar https://api.purpurmc.org/v2/purpur/1.20.4/latest/download
